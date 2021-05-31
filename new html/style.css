@@ -1,0 +1,217 @@
+
+.main{
+    margin: 1px;
+    
+
+}
+
+.navbar-brand.blog{
+    margin-left:30px ;
+}
+
+.navbar.navbar-expand-lg.navbar-light.back.abinash {
+    background-image:url(images/bg-pattern-intro.svg)  ;
+    background-size: cover;
+   
+    background-image:url(images/bg-pattern-intro.svg),linear-gradient(hsl(13, 100%, 72%),hsl(353, 100%, 62%)) ;
+    height:100%;
+    background-position: top 50% left 30%;
+    
+    background-size: 150%;
+    border-bottom-left-radius: 5rem;
+
+   
+}
+
+.b1{
+    border: none;
+    color:red;  
+   
+}
+.b2{
+    
+    border-radius: 2rem;
+    width:90px;
+    height: 30px; 
+    
+    color:red;
+    padding-bottom: 2rem;
+    background-color: white;
+   
+}
+.b2:hover{
+    background-color: red;
+    color:white;
+    transition: 600ms ;
+
+}
+.back{
+    background-color:transparent;
+}
+.navbar.navbar-expand-lg.navbar-light.back.abinash{
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+
+.abinashcontainerbutton{
+    width : 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15rem;
+    margin-top:15rem ;
+
+}
+.abinashmid-contaitner{
+    overflow: hidden;
+    height: auto;
+    width: 100;
+}
+.abinashmid-contaitner>h1{
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+
+
+}
+.abinashmid-contaitner0{
+    display:flex;
+    align-items: center;
+    
+    
+    width: 100%;
+
+     
+}
+.abinashpara{
+    
+    font-size: 20px;
+    width:50%;  
+    top:16rem;
+    left:5rem;
+}
+.abinashphoto{
+ 
+  top:3rem;
+  left:70rem;
+  width: 50%;
+}
+.abinashmidlow-contaitner{
+    display:flex;
+    background-image: linear-gradient(hsl(237, 17%, 21%),hsl(237, 23%, 32%));
+    
+    top: 10rem;
+    position:relative;
+    width: 100%;
+    height:100%;
+   
+
+}
+
+
+.photohataune{
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+}
+.abinashphoto1{
+    
+   position:absolute;
+   left:0;
+   width: 50%;
+  
+
+  
+}
+.abinashmidlow-contaitnerpara{
+    width: 50%;
+    margin-top:8rem;  
+    margin-bottom: 8rem; 
+   
+    
+}
+.mobile{
+    position:absolute;
+    top: -5rem;
+    left: 4rem;
+    z-index: 11;
+}
+.abinashmidlow1-contaitner{
+    
+    display: flex;
+    margin-top: 30rem;
+    width:100%;
+
+}
+.abinashphoto2{
+    width:50%;
+    overflow: hidden;
+}
+.abinashmidlow1-contaitnerpara{
+    padding-top: 12rem;
+    width:50%;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient(hsl(237, 17%, 21%),hsl(237, 23%, 32%));
+    );
+
+    
+}
+.blog{
+    width:20%;
+    padding-top: 3rem;
+}
+.footeritem{
+    display:flex;
+    justify-content: space-evenly;
+}
+.product{
+    margin-right: 20rem;
+    
+}
+.company{
+    margin-right: 20rem;
+}
+.product1{
+    font-size: 20px;
+    color:WHITE;
+}
+.company1{
+    font-size: 20px;
+    color:WHITE;
+}
+.connect1{
+    font-size: 20px;
+    color:WHITE;
+}
+
+.dropproduct{
+    list-style-type: none;
+    color:WHITE;
+
+}
+.product2>li{
+    list-style-type: none;
+    
+}
+.company2{
+    list-style-type: none;
+
+}
+.connect2{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
