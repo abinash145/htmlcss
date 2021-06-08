@@ -1,0 +1,9 @@
+body{
+  background: linear-gradient(to right, red , yellow);
+  width: 100%;
+  text-align: center;
+}
+h1{
+ 
+  text-transform: uppercase;
+}
