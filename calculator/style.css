@@ -1,0 +1,110 @@
+.main{
+    width:100vw;
+    height: 100VH;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(222, 26%, 31%);
+}
+.container{
+    /* background-color: transparent; */
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 75vh;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.head{
+    height: 10%;
+    display:flex;
+
+    justify-content: space-between;
+    font-size: 0.5rem;
+    /* border-style: none; */
+    background-color: transparent;
+    
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 20%;
+    overflow: hidden;
+    border: 1px solid yellow;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 0.5rem;
+}
+
+.ram{
+    display:flex;
+    justify-content: flex-end;
+}
+.display1{
+    height:34%;
+    font-size: large;
+
+}
+.display2{
+    height:34%;
+    font-size: 2rem;
+    
+}
+.display3{
+    height:auto;
+    font-size: large;
+    
+}
+
+.foot{
+    height: 60%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-gap: 1rem; */
+    
+    
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    grid-column: span 2;
+}
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.key button{
+   
+    width: 70%;
+    height: 80%;
+    border-radius: 0.4rem;
+
+    
+    
+    
+}
+.two{
+   text-align:center;
+}
+.two button{
+    width:82%;
+    height: 80%;
+    border-radius: 0.4rem;
+
+    
+}
+button{
+    box-shadow:0px 5px 4px 0px hsl(280, 1%, 50%);
+    
+}
+button:hover{
+    background-color: hsl(266, 8%, 33%)
+}
